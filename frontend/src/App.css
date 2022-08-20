@@ -1,0 +1,238 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Homepage */
+.container {display: flex;width: 50%;justify-content: center;margin: auto;margin-right: 0px;}
+
+.content {display: flex;flex-direction: column;margin-right: 12%;width: 25%;justify-content: center;}
+
+button#btncolor {border: 2px solid darkgreen;width: 25%;height: 2.5pc;border-radius: 15px;background-color: white;font-size: larger;color: seagreen;}
+
+button#btncolor:hover {border: 4px solid greenyellow;color: yellowgreen;}
+.Homepage {
+  display: flex;
+  height: 100vh;
+}
+/* navbar */
+#camera {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: x-large;
+  color: black;
+}
+#bulleye{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: xx-large;
+    color: #49d449;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+nav.navbar.navbar-expand-lg.bg-light {
+  border-bottom: 1px solid darkseagreen;
+  position: sticky;
+  top: 0px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  margin-left: 97%;
+}
+/* img */
+/* img {
+  height: 570px;
+} */
+/* footer */
+.pagefooter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+i{
+  cursor: pointer;
+}
+.first>* {
+  width: 50%;
+}
+.first {
+  display: flex;
+}
+p#likes {
+  text-align: start;
+  padding: 0px 20px;
+}
+p#date {
+  text-align: end;
+  padding: 0px 20px 0px 0px;
+}
+.second {
+  text-align: start;
+  padding: 0px 20px;
+  font-size: larger;
+}
+input#title {
+  width: 46rem;
+  padding: 5px 5px;
+  overflow: hidden;
+}
+button.btn.btn-primary {
+  padding: 10px;
+  width: 30%;
+}
+/* image */
+.pageimage {
+  display: contents;
+}
+.pageheader>* {
+  width: 50%;
+}
+
+/* addpost */
+.AddPost {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.instruction{
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  padding: 10px;
+}
+.form.my-2 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.mb-3 {
+  display: flex;
+}
+label.form-label {
+  margin-right: 10px;
+}
+/* postitem */
+.PostItem {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+/* pageheader */
+.pageheader>* {
+  width: 50%;
+  text-align: start;
+  padding: 20px 20px 0px 28px;
+}
+h1 {
+  margin: 15px;
+}
+.pageheader {
+  display: flex;
+}
+/* delete button */
+.btn {width: 10%;border: none;padding: 30px 5px;text-align: center;}
+
+.heading {width: 90%;}
+
+/* share button */
+.middle>* {
+  margin-right: 10px;
+}
+
+.middle {
+  display: flex;
+  padding: 10px 20px;
+}
+/* gobackbutton */
+button.goback {
+  margin-top: 10px;
+  width: 30%;
+  border-radius: 6px;
+  height: 40px;
+  background-color: #5ccafd;
+  border: none;
+}
+button.goback:hover {
+  background-color: #0d6efd;
+}
+.PostItem:hover {
+  border: 1px solid darkseagreen;
+}

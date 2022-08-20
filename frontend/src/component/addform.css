@@ -1,0 +1,88 @@
+.head {
+    width: 100vw;
+    height: 13vh;
+    background: #E9E9E9;
+}
+
+.sub-div {
+    width: 265px;
+    height: 58px;
+    padding: 20px 0 0 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+/* identical to box height */
+    color: #000000;
+}
+
+img.home.btns {
+    width: 80px;
+    margin-left: 38px;
+    height: 70px;
+    background: #E9E9E9;
+    border-radius: 20px;
+
+}
+
+
+img.publish.btns {
+    width: 80px;
+    margin-top: 27px;
+    margin-left: 38px;
+    height: 70px;
+    background: #E9E9E9;
+    border-radius: 20px;
+}
+
+
+
+
+
+.sub-div {
+    width: 265px;
+    height: 58px;
+    padding: 20px 0 0 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+/* identical to box height */
+    color: #000000;
+}
+
+.sub-container {
+    display: flex;
+}
+
+
+
+
+textarea#exampleForm\.ControlTextarea1 {
+    position: absolute;
+    height: 60vh;
+    width: 69vw;
+    border: none;
+    font-size: larger;
+    padding: 9px;
+    background: #E9E9E9;
+}
+
+.mb-3 {
+    background-color: lightgray;
+}
+
+
+input#image {
+    height: 4vh;
+    padding: 2px;
+    width: 30vw;
+    font-size: larger;
+}
+
+form.submitPost {
+    height: 79vh;
+    /* border: 1px solid; */
+}
